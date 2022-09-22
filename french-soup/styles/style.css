@@ -1,5 +1,30 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+header {
+  background-color: grey;
+  background-image: url("../images/soup.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding: 250px 0;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-size: 64px;
+  font-weight: lighter;
+}
+
+p {
+  text-align: center;
+}
+
+.principal {
+  display: block;
+  margin: auto;
+}
+
+body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
